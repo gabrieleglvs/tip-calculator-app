@@ -188,7 +188,7 @@ header {
 .output-sub-title-text {
     font-size: 0.8rem;
 }
-#output-tip-amount {
+#s-output-tip-amount {
     width: 50%;
     text-align: right;
     font-size: 2.8rem;
@@ -197,10 +197,10 @@ header {
     background: none;
     outline: none;
 }
-#output-tip-amount::-webkit-input-placeholder {
+#s-output-tip-amount::-webkit-input-placeholder {
     color: #26c0ab;
 }
-#output-tip-amount::-moz-placeholder {
+#s-output-tip-amount::-moz-placeholder {
     color: #26c0ab;
 }
 
@@ -215,7 +215,7 @@ header {
     display: flex;
     flex-direction: column;
 }
-#output-total {
+#s-output-total {
     width: 50%;
     text-align: right;
     font-size: 2.8rem;
@@ -224,10 +224,10 @@ header {
     background: none;
     outline: none;
 }
-#output-total::-webkit-input-placeholder {
+#s-output-total::-webkit-input-placeholder {
     color: #26c0ab;
 }
-#output-total::-moz-placeholder {
+#s-output-total::-moz-placeholder {
     color: #26c0ab;
 }
 
