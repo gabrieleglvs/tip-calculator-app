@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #5e7a7d;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 0.92rem;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c5e4e7;
+}
+
+header {
+
+}
+
+.splitter {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    padding: 2rem;
+    border-radius: 18px;
+    gap: 1.5rem;
+    width: 55rem;
+    height: 28rem;
+    margin: auto;
+
+}
+
+.splitter-input {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.splitter-input-bill {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+#s-input-bill {
+    margin-top: 0.3rem;
+    background-color: #f4fafa;
+    color: #00494d;
+    border: none;
+    text-align: right;
+    font-size: 1.3rem;
+    padding: 0.6rem 0.9rem 0.6rem 0.9rem; 
+    border-radius: 5px;
+    background-image: url(imagens/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 0.9rem;
+}
+#s-input-bill::-webkit-input-placeholder {
+    color: #7f9c9f;
+}
+#s-input-bill::-moz-placeholder {
+    color: #7f9c9f;
+}
+
+.splitter-input-tip {
+    display: flex;
+    flex-direction: column; 
+}
+.s-input-tip-title {
+    margin-bottom: 0.2rem;;
+}
+.s-input-tip-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+}
+.s-input-tip-button {
+    background-color: #00494d;
+    color: #ffffff;
+    font-size: 1.2rem;
+    width: 6.8rem;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 5px;
+}
+#tip-input-custom {
+    box-sizing: border-box;
+    background-color: #f4fafa;
+    color: #5e7a7d;
+    font-size: 1.3rem;
+    width: 6.8rem;
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 0.9rem;
+}
+#tip-input-custom::-webkit-input-placeholder {
+    position: absolute;
+    padding-left: 0.9rem;
+    padding-top: 0.3rem;
+}
+
+.splitter-input-num-people {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;   
+}
+#s-input-num-people {
+    margin-top: 0.2rem;
+    background-color: #f4fafa;
+    color: #00494d;
+    border: none;
+    text-align: right;
+    font-size: 1.3rem;
+    padding: 0.6rem 0.9rem 0.6rem 0.9rem;
+    border-radius: 5px;
+    background-image: url(imagens/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 0.9rem;
+}
+#s-input-num-people::-webkit-input-placeholder {
+    color: #7f9c9f;
+}
+#s-input-num-people::-moz-placeholder {
+    color: #7f9c9f;
+}
+
+.splitter-output {
+    width: 50%;
+    background-color: #00494d;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    padding: 2rem;
+}
+
+.splitter-output-tip-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s-output-tip-amount-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.output-title-text {
+    color: #ffffff;
+}
+.output-sub-title-text {
+    font-size: 0.8rem;
+}
+#output-tip-amount {
+    width: 50%;
+    text-align: right;
+    font-size: 2.8rem;
+    color:#26c0ab;
+    border: none;
+    background: none;
+}
+#output-tip-amount::-webkit-input-placeholder {
+    color: #26c0ab;
+}
+#output-tip-amount::-moz-placeholder {
+    color: #26c0ab;
+}
+
+.splitter-output-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.s-output-total-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#output-total {
+    width: 50%;
+    text-align: right;
+    font-size: 2.8rem;
+    color: #26c0ab;
+    border: none;
+    background: none;
+}
+#output-total::-webkit-input-placeholder {
+    color: #26c0ab;
+}
+#output-total::-moz-placeholder {
+    color: #26c0ab;
+}
+
+#reset-button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+    background-color: #c5e4e7;
+    opacity: 20%;
+    margin-top: 7.6rem;
+}
+
