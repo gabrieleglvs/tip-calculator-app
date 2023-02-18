@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./imagens/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Tip calculator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -16,50 +16,49 @@
 </head>
 <body>
     <header>
-        <h1>SPLITTER</h1>
+        <h1><img src="/imagens/logo.svg" alt=""></h1>
     </header>
     <main>
         <section class="splitter">
-            <div class="splitter-input">
+            <form class="splitter-input">
                 <div class="splitter-input-bill">
                     <label for="s-input-bill">Bill</label>
-                    <input type="text" name="bill" id="s-input-bill">
+                    <input type="text" name="bill" id="s-input-bill" placeholder="0">
                 </div>
-
                 <div class="splitter-input-tip">
                     <span class="s-input-tip-title">Select Tip %</span>
-
-                    <button class="s-input-tip-button" id="tip-button-5">5%</button>
-
-                    <button class="s-input-tip-button" id="tip-button-10">10%</button>
-
-                    <button class="s-input-tip-button" id="tip-button-15">15%</button>
-
-                    <button class="s-input-tip-button" id="tip-button-25">25%</button>
-
-                    <button class="s-input-tip-button" id="tip-button-50">50%</button>
-
-                    <button class="s-input-tip-button" id="tip-button-custom">Custom</button>
+                    <div class="s-input-tip-buttons">
+                        <button class="s-input-tip-button" id="tip-button-5">5%</button>
+                        <button class="s-input-tip-button" id="tip-button-10">10%</button>
+                        <button class="s-input-tip-button" id="tip-button-15">15%</button>
+                    </div>
+                    <div class="s-input-tip-buttons">
+                        <button class="s-input-tip-button" id="tip-button-25">25%</button>
+                        <button class="s-input-tip-button" id="tip-button-50">50%</button>
+                        <input type="text" name="custom" id="tip-input-custom" placeholder="Custom">
+                    </div>
                 </div>
-
                 <div class="splitter-input-num-people">
                     <label for="s-input-num-people">Number of People</label>
-                    <input type="text" name="people" id="s-input-num-people">
+                    <input type="text" name="people" id="s-input-num-people" placeholder="0">
                 </div>
-            </div>
+            </form>
+
             <div class="splitter-output">
                 <div class="splitter-output-tip-amount">
-                    <span class="s-output-tip-amount">Tip Amount</span>
-                    <span class="s-output-tip-amount">/ person</span>
-                    <input type="text" name="tip-amount" id="output-tip-amount">
+                    <div class="s-output-tip-amount-text">
+                        <span class="output-title-text">Tip Amount</span>
+                        <span class="output-sub-title-text">/ person</span>
+                    </div>
+                    <input type="text" name="tip-amount" id="output-tip-amount" placeholder="$0.00">
                 </div>
-
                 <div class="splitter-output-total">
-                    <span class="s-output-total">Total</span>
-                    <span class="s-output-total">/ person</span>
-                    <input type="text" name="total" id="output-total">
+                    <div class="s-output-total-text">
+                        <span class="output-title-text">Total</span>
+                        <span class="output-sub-title-text">/ person</span>
+                    </div>
+                    <input type="text" name="total" id="output-total" placeholder="$0.00">
                 </div>
-
                 <button id="reset-button">RESET</button>
             </div>
         </section>
