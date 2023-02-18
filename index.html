@@ -9,10 +9,6 @@
   
   <title>Tip calculator app</title>
 
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
     <header>
@@ -20,10 +16,11 @@
     </header>
     <main>
         <section class="splitter">
+
             <form class="splitter-input">
                 <div class="splitter-input-bill">
                     <label for="s-input-bill">Bill</label>
-                    <input type="text" name="bill" id="s-input-bill" placeholder="0">
+                    <input type="number" name="bill" id="s-input-bill" placeholder="0">
                 </div>
                 <div class="splitter-input-tip">
                     <span class="s-input-tip-title">Select Tip %</span>
@@ -35,12 +32,12 @@
                     <div class="s-input-tip-buttons">
                         <button class="s-input-tip-button" id="tip-button-25">25%</button>
                         <button class="s-input-tip-button" id="tip-button-50">50%</button>
-                        <input type="text" name="custom" id="tip-input-custom" placeholder="Custom">
+                        <input type="number" name="custom" id="tip-input-custom" placeholder="Custom">
                     </div>
                 </div>
                 <div class="splitter-input-num-people">
                     <label for="s-input-num-people">Number of People</label>
-                    <input type="text" name="people" id="s-input-num-people" placeholder="0">
+                    <input type="number" name="people" id="s-input-num-people" placeholder="0">
                 </div>
             </form>
 
@@ -50,22 +47,25 @@
                         <span class="output-title-text">Tip Amount</span>
                         <span class="output-sub-title-text">/ person</span>
                     </div>
-                    <input type="text" name="tip-amount" id="output-tip-amount" placeholder="$0.00" disabled>
+                    <input type="number" name="tip-amount" id="s-output-tip-amount" placeholder="$0.00" disabled>
                 </div>
                 <div class="splitter-output-total">
                     <div class="s-output-total-text">
                         <span class="output-title-text">Total</span>
                         <span class="output-sub-title-text">/ person</span>
                     </div>
-                    <input type="text" name="total" id="output-total" placeholder="$0.00" disabled>
+                    <input type="number" name="total" id="s-output-total" placeholder="$0.00" disabled>
                 </div>
+
                 <button id="reset-button">RESET</button>
             </div>
+
         </section>
     </main>
     <footer>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="#">Your Name Here</a>.
     </footer>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
