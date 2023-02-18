@@ -62,6 +62,12 @@ header {
     background-position: left;
     background-position-x: 0.9rem;
 }
+#s-input-bill:hover {
+    cursor: pointer;
+}
+#s-input-bill:focus {
+    outline: 2.3px solid #26c0ab;
+}
 #s-input-bill::-webkit-input-placeholder {
     color: #7f9c9f;
 }
@@ -90,10 +96,19 @@ header {
     border: none;
     border-radius: 5px;
 }
+.s-input-tip-button:hover {
+    background-color:#9FE8DF;
+    color: #00494d;
+    cursor: pointer;
+}
+.s-input-tip-button .clicked {
+    background-color: #26c0ab;
+    color: #00494d; /*mudar a cor via js*/
+}
 #tip-input-custom {
     box-sizing: border-box;
     background-color: #f4fafa;
-    color: #5e7a7d;
+    color: #00494d;
     font-size: 1.3rem;
     width: 6.8rem;
     border: none;
@@ -101,7 +116,14 @@ header {
     text-align: right;
     padding-right: 0.9rem;
 }
+#tip-input-custom:hover {
+    cursor: pointer;
+}
+#tip-input-custom:focus {
+    outline: 2.3px solid #26c0ab;
+}
 #tip-input-custom::-webkit-input-placeholder {
+    color: #5e7a7d;
     position: absolute;
     padding-left: 0.9rem;
     padding-top: 0.3rem;
@@ -125,6 +147,12 @@ header {
     background-repeat: no-repeat;
     background-position: left;
     background-position-x: 0.9rem;
+}
+#s-input-num-people:hover {
+    cursor: pointer;
+}
+#s-input-num-people:focus {
+    outline: 2.3px solid #26c0ab;   
 }
 #s-input-num-people::-webkit-input-placeholder {
     color: #7f9c9f;
@@ -165,6 +193,7 @@ header {
     color:#26c0ab;
     border: none;
     background: none;
+    outline: none;
 }
 #output-tip-amount::-webkit-input-placeholder {
     color: #26c0ab;
@@ -191,6 +220,7 @@ header {
     color: #26c0ab;
     border: none;
     background: none;
+    outline: none;
 }
 #output-total::-webkit-input-placeholder {
     color: #26c0ab;
@@ -206,5 +236,17 @@ header {
     background-color: #c5e4e7;
     opacity: 20%;
     margin-top: 7.6rem;
+}
+
+#reset-button:hover {
+    background-color: #9FE8DF;
+    opacity: 100%;
+    color: #00494d;
+    cursor: pointer;
+}
+
+#reset-button .clicked {
+    background-color: #26c0ab;
+    color: #00494d; /*mudar a cor via js*/
 }
 
