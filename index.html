@@ -25,19 +25,22 @@
                 <div class="splitter-input-tip">
                     <span class="s-input-tip-title">Select Tip %</span>
                     <div class="s-input-tip-buttons">
-                        <button class="s-input-tip-button" id="tip-button-5">5%</button>
-                        <button class="s-input-tip-button" id="tip-button-10">10%</button>
-                        <button class="s-input-tip-button" id="tip-button-15">15%</button>
+                        <button class="s-input-tip-button" id="tip-button-5" value="5">5%</button>
+                        <button class="s-input-tip-button" id="tip-button-10" value="10">10%</button>
+                        <button class="s-input-tip-button" id="tip-button-15" value="15">15%</button>
                     </div>
                     <div class="s-input-tip-buttons">
-                        <button class="s-input-tip-button" id="tip-button-25">25%</button>
-                        <button class="s-input-tip-button" id="tip-button-50">50%</button>
+                        <button class="s-input-tip-button" id="tip-button-25" value="25">25%</button>
+                        <button class="s-input-tip-button" id="tip-button-50" value="50">50%</button>
                         <input type="number" name="custom" id="tip-input-custom" placeholder="Custom">
                     </div>
                 </div>
                 <div class="splitter-input-num-people">
-                    <label for="s-input-num-people">Number of People</label>
-                    <input type="number" name="people" id="s-input-num-people" placeholder="0">
+                    <div class="s-input-num-people-label">
+                        <label for="s-input-num-people">Number of People</label>
+                        <label for="s-input-num-people" id="s-input-num-people-label-attention" class=""></label>
+                    </div>
+                    <input type="number" name="people" id="s-input-num-people" class="" placeholder="0">
                 </div>
             </form>
 

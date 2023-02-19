@@ -103,7 +103,7 @@ header {
     color: #00494d;
     cursor: pointer;
 }
-.s-input-tip-button .clicked {
+.clicked {
     background-color: #26c0ab;
     color: #00494d; /*mudar a cor via js*/
 }
@@ -136,6 +136,13 @@ header {
     flex-direction: column;
     margin-top: 2rem;   
 }
+.s-input-num-people-label {
+    display: flex;
+    justify-content: space-between;
+}
+.label-attention {
+    color: red;
+}
 #s-input-num-people {
     margin-top: 0.2rem;
     background-color: #f4fafa;
@@ -161,6 +168,9 @@ header {
 }
 #s-input-num-people::-moz-placeholder {
     color: #7f9c9f;
+}
+.input-attention {
+    outline: 2.3px solid red;
 }
 
 .splitter-output {
