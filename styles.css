@@ -188,7 +188,7 @@ header {
     align-items: center;
 }
 .s-output-tip-amount-text {
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
 }
@@ -199,7 +199,7 @@ header {
     font-size: 0.8rem;
 }
 #s-output-tip-amount {
-    width: 50%;
+    width: 70%;
     text-align: right;
     font-size: 2.8rem;
     color:#26c0ab;
@@ -221,12 +221,12 @@ header {
     margin-top: 1rem;
 }
 .s-output-total-text {
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
 }
 #s-output-total {
-    width: 50%;
+    width: 70%;
     text-align: right;
     font-size: 2.8rem;
     color: #26c0ab;
@@ -241,7 +241,7 @@ header {
     color: #26c0ab;
 }
 
-#reset-button {
+.reset-button-normal {
     border: none;
     border-radius: 5px;
     padding: 0.5rem;
@@ -251,15 +251,15 @@ header {
     font-size: 1.2rem;
 }
 
-#reset-button:hover {
+.reset-button-normal:hover {
     background-color: #9FE8DF;
     opacity: 100%;
     color: #00494d;
     cursor: pointer;
 }
 
-#reset-button .clicked {
+.active {
     background-color: #26c0ab;
+    opacity: 100%;
     color: #00494d; /*mudar a cor via js*/
 }
-
