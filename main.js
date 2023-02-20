@@ -146,6 +146,7 @@ function calcTipAmount(b, t, p) {
         tipButton50El.classList.remove("clicked");
         sOutputTipAmountEl.value = "";
         sOutputTotalEl.value = "";
+        tipInputCustomEl.value = "";
         resetButtonEl.classList.remove("active");
 
         sInputNumPeopleEl.classList.remove("input-attention");
