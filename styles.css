@@ -19,8 +19,9 @@ body {
 }
 
 header {
-    width: 55rem;
-    height: 8rem;
+    /*width: 55rem;
+    height: 8rem;*/
+    margin: 2rem auto;
     text-align: center;
 }
 
@@ -33,7 +34,7 @@ header {
     gap: 1.5rem;
     width: 55rem;
     height: 28rem;
-    margin: auto;
+    margin: 0 auto;
     /*box-shadow: 1.5px 1.5px 20px rgba(38, 192, 171, 1);*/
 }
 
@@ -262,4 +263,28 @@ header {
     background-color: #26c0ab;
     opacity: 100%;
     color: #00494d; /*mudar a cor via js*/
+}
+
+@media screen and (max-width: 415px) {
+
+    .header {
+
+    }
+
+    .splitter {
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+
+    }
+
+    .splitter-input {
+        width: 100%;
+    }
+
+    .splitter-output {
+        width: 100%;
+    }
 }
