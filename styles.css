@@ -265,7 +265,7 @@ header {
     color: #00494d; /*mudar a cor via js*/
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 375px) {
 
     .header {
 
