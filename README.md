@@ -20,16 +20,11 @@
 
 - ``HTML5``
 - ``CSS``
-- ``Flexbox``
-
-<h2>🤓 O que eu aprendi | What I learned</h2>
-
-:brazil: - Pude colocar em prática o que venho aprendendo sobre classes, posicionamento e flexbox, fixando melhor seu conceito e aplicação.
-
-:us: - I was able to practice about class, position and flexbox, better fixing its concept and application.
+-- Flexbox, media queries
+- ``JavaScript``
+-- DOM Manipulation, Arrow functions, forEach, Intl.NumberFormat
 
 <h2>👣 Próximos passos | Next steps</h2>
 
-:brazil: - Tornar o projeto responsivo.
-
-:us: - Make the project responsive.
+:brazil: - Melhorar o formato responsivo.
+:us: - Improve responsive format.
