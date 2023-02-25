@@ -13,8 +13,8 @@
 
 <h2>📁 Acesso ao projeto | Links</h2>
 
-> <p>Você pode acessar a solução <a href="https://gabrieleglvs.github.io/qr-code-component/">clicando aqui.</a></p>
-> <p>Go to the solution <a href="https://gabrieleglvs.github.io/qr-code-component/">here.</a></p>
+> <p>Você pode acessar a solução <a href="https://gabrieleglvs.github.io/tip-calculator-app/">clicando aqui.</a></p>
+> <p>Go to the solution <a href="https://gabrieleglvs.github.io/tip-calculator-app/">here.</a></p>
 
 <h2>⚙️ Tecnologias e técnicas utilizadas</h2>
 
