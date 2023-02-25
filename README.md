@@ -27,4 +27,5 @@
 <h2>👣 Próximos passos | Next steps</h2>
 
 :brazil: - Melhorar o formato responsivo.
+
 :us: - Improve responsive format.
